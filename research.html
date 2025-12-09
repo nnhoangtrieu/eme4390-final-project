@@ -1,0 +1,167 @@
+<!-- research.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Research – Misuse of AI to Fake Identity Online</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">Digital Identity Project</div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="examples.html">Examples</a>
+      <a href="quickfacts.html">Quick Facts</a>
+      <a href="response.html">Personal Response</a>
+      <a href="references.html">References</a>
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle light or dark mode">&#9788;</button>
+  </header>
+
+  <main>
+
+    <!-- *** VIDEO SECTION MOVED TO TOP *** -->
+    <section class="content-section video-section">
+      <div class="section-header">
+        <h2>Research Presentation Video</h2>
+        <p>Click below to watch the research screencast on YouTube.</p>
+      </div>
+
+      <div class="video-button-container">
+        <a href="https://www.youtube.com/watch?v=cHNhwyvq4lA" 
+           target="_blank" 
+           rel="noopener" 
+           class="btn video-btn">
+           ▶ Watch on YouTube
+        </a>
+      </div>
+    </section>
+
+    <!-- *** MAIN RESEARCH CONTENT *** -->
+    <section class="page-header">
+      <h1>Research Summary</h1>
+      <p>This page summarizes the in-depth report on how AI is misused to fake identity online.</p>
+    </section>
+
+    <section class="collapsible-group">
+
+      <!-- Background -->
+      <button class="collapsible-toggle" data-target="bg-section">
+        1. Background &amp; How the Technology Works
+        <span class="chevron">&#9662;</span>
+      </button>
+
+      <div id="bg-section" class="collapsible-content open">
+        <h2>AI Identity Fraud: What It Is</h2>
+        <p>
+          AI identity fraud refers to using artificial intelligence to fabricate or assume someone’s identity for
+          deceitful purposes. Key forms include deepfakes, voice cloning, AI-generated identification documents, and
+          automated impersonation attempts.
+        </p>
+
+        <h3>How AI Generates These Fakes</h3>
+        <p>
+          Deepfakes often use neural networks like GANs and diffusion models to imitate facial expressions, voices, and
+          mannerisms. Voice cloning tools require just seconds of audio to generate fully synthesized speech.
+        </p>
+
+        <h3>Shifting Landscape</h3>
+        <p>
+          Identity theft has evolved from stolen passwords to stolen faces and voices. With AI tools publicly available,
+          nearly anyone can create a convincing impersonation.
+        </p>
+      </div>
+
+      <!-- Evidence -->
+      <button class="collapsible-toggle" data-target="evidence-section">
+        2. Current Evidence &amp; Cases (2020–2025)
+        <span class="chevron">&#9662;</span>
+      </button>
+
+      <div id="evidence-section" class="collapsible-content">
+        <h2>Real-World Cases</h2>
+        <ul>
+          <li>AI “kidnapping” ransom calls using cloned child voices.</li>
+          <li>Voice-cloned CEOs authorizing fraudulent multi-million-dollar transfers.</li>
+          <li>Deepfake political misinformation such as false surrender statements.</li>
+          <li>YouTube livestream scams featuring deepfake Elon Musk.</li>
+          <li>Remote job interviews using synthetic faces and stolen identities.</li>
+        </ul>
+
+        <h3>Trends</h3>
+        <p>
+          Fraud investigators report a sharp rise in synthetic identity crimes, especially voice-based impersonation,
+          which surged over 400% in some regions.
+        </p>
+      </div>
+
+      <!-- Implications -->
+      <button class="collapsible-toggle" data-target="implications-section">
+        3. Implications &amp; Impacts
+        <span class="chevron">&#9662;</span>
+      </button>
+
+      <div id="implications-section" class="collapsible-content">
+        <h2>Social Impacts</h2>
+        <p>
+          Trust becomes fragile when audio and video can be fabricated. Victims often experience shock, fear,
+          humiliation, and long-term anxiety.
+        </p>
+
+        <h3>Ethical Concerns</h3>
+        <ul>
+          <li>Non-consensual use of someone’s face or voice.</li>
+          <li>Deepfake sexual exploitation targeting women.</li>
+          <li>Political deepfakes undermining democracy and public trust.</li>
+        </ul>
+
+        <h3>Economic &amp; Security Risks</h3>
+        <p>
+          Businesses face financial losses, reputational damage, and security breaches when deepfakes bypass identity
+          verification systems.
+        </p>
+      </div>
+
+      <!-- Actions -->
+      <button class="collapsible-toggle" data-target="actions-section">
+        4. Action Steps &amp; Recommendations
+        <span class="chevron">&#9662;</span>
+      </button>
+
+      <div id="actions-section" class="collapsible-content">
+        <h2>What We Can Do</h2>
+
+        <h3>For Individuals</h3>
+        <ul>
+          <li>Use a family verification code word.</li>
+          <li>Be skeptical of urgent money requests.</li>
+          <li>Limit publicly shared voice recordings.</li>
+        </ul>
+
+        <h3>For Educators</h3>
+        <ul>
+          <li>Teach AI literacy and media awareness.</li>
+          <li>Update school policies to include deepfake misuse.</li>
+        </ul>
+
+        <h3>For Companies</h3>
+        <ul>
+          <li>Require multi-step verification for transactions.</li>
+          <li>Train staff to detect deepfake-based attacks.</li>
+        </ul>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Digital Identity Capstone.</p>
+    <a href="#top" class="back-to-top">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

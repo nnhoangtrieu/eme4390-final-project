@@ -1,0 +1,145 @@
+<!-- quickfacts.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quick Facts – Misuse of AI to Fake Identity Online</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">Digital Identity Project</div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="examples.html">Examples</a>
+      <a href="quickfacts.html" class="active">Quick Facts</a>
+      <a href="response.html">Personal Response</a>
+      <a href="references.html">References</a>
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle light or dark mode">
+      &#9788;
+    </button>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Quick Facts &amp; Warning Signs</h1>
+      <p>
+        An infographic-style snapshot of the most important stats, terms, and red flags from the research.
+      </p>
+    </section>
+
+    <section class="content-section">
+      <div class="section-header">
+        <h2>Key Stats at a Glance</h2>
+        <p>Hover or tap on each panel to learn more.</p>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-card" data-tooltip="Some modern AI systems can clone a voice after hearing just a few seconds of audio, then generate new speech in that person’s voice.">
+          <div class="stat-number" data-target="3">0</div>
+          <p class="stat-label">seconds of audio may be enough to clone a voice.</p>
+        </div>
+
+        <div class="stat-card" data-tooltip="Security researchers observed a massive spike in vishing (voice phishing) attacks as criminals adopted AI voice-cloning tools.">
+          <div class="stat-number" data-target="442">0</div>
+          <p class="stat-label">percent surge in AI-boosted voice phishing in late 2024.</p>
+        </div>
+
+        <div class="stat-card" data-tooltip="Analysts project deepfake-enabled scams will cause tens of billions of dollars in losses worldwide within a few years.">
+          <div class="stat-number" data-target="40">0</div>
+          <p class="stat-label">billion dollars in projected global losses from deepfake fraud by 2027.</p>
+        </div>
+
+        <div class="stat-card" data-tooltip="Most deepfake videos found online are non-consensual pornographic content, usually targeting women.">
+          <div class="stat-number" data-target="96">0</div>
+          <p class="stat-label">% of deepfake videos online are pornographic and non-consensual.</p>
+        </div>
+
+        <div class="stat-card" data-tooltip="Fraud professionals are increasingly encountering AI-generated identities and impersonations in real cases.">
+          <div class="stat-number" data-target="46">0</div>
+          <p class="stat-label">% of fraud investigators have seen synthetic identity fraud involving AI.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section alt">
+      <div class="section-header">
+        <h2>Core Terms &amp; Definitions</h2>
+      </div>
+      <div class="two-column">
+        <ul class="definition-list">
+          <li data-tooltip="AI-generated media that realistically imitates a person’s appearance or voice, often by learning from real footage.">
+            <strong>Deepfake:</strong> AI-generated or altered media that convincingly portrays someone doing or saying things they never did.
+          </li>
+          <li data-tooltip="Neural networks are trained on recordings of a speaker to reproduce their tone, accent, and speech patterns.">
+            <strong>Voice Cloning:</strong> Using AI to synthesize speech in someone’s voice, often from just a few seconds of audio.
+          </li>
+          <li data-tooltip="AI tools can generate ID photos and faces that pass basic visual checks but belong to no real person.">
+            <strong>Synthetic Identity:</strong> A completely or partially fake identity built using AI and stolen personal data.
+          </li>
+          <li data-tooltip="Scammers use AI to customize emails, texts, or calls so that they sound exactly like a known person.">
+            <strong>AI-Assisted Phishing:</strong> Scam messages and calls crafted or voiced by AI to make impersonation highly convincing.
+          </li>
+          <li data-tooltip="When deepfakes are common, people can dismiss real evidence as fake, undermining accountability.">
+            <strong>Liar’s Dividend:</strong> The advantage bad actors gain when they can label true audio or video as “deepfake” to avoid consequences.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="section-header">
+        <h2>Warning Signs of AI Identity Misuse</h2>
+        <p>These are practical red flags that ordinary people can watch for.</p>
+      </div>
+      <div class="warning-grid">
+        <div class="warning-card" data-tooltip="Scammers rely on panic so you react before thinking or verifying.">
+          <h3>1. Extreme Urgency</h3>
+          <p>
+            The caller or message demands that you act immediately – send money, share codes, or transfer funds – and warns
+            that something terrible will happen if you delay.
+          </p>
+        </div>
+        <div class="warning-card" data-tooltip="Criminals often push you away from secure, traceable systems.">
+          <h3>2. Strange Payment Methods</h3>
+          <p>
+            You are asked to pay in gift cards, cryptocurrency, wire transfer, or cash courier instead of normal, traceable
+            methods.
+          </p>
+        </div>
+        <div class="warning-card" data-tooltip="Deepfakes sometimes have subtle artifacts if you look closely.">
+          <h3>3. Slightly “Off” Audio or Video</h3>
+          <p>
+            The voice sounds almost perfect but has odd pauses, robotic emphasis, or missing background noise; video may
+            show weird lighting or lip-sync issues.
+          </p>
+        </div>
+        <div class="warning-card" data-tooltip="Legitimate organizations encourage verification; scammers discourage it.">
+          <h3>4. Secrecy &amp; Isolation</h3>
+          <p>
+            The person insists you tell no one and discourages you from hanging up or calling a trusted friend or relative
+            to check the story.
+          </p>
+        </div>
+        <div class="warning-card" data-tooltip="Real companies and banks have procedures and never rely on a single call for large transfers.">
+          <h3>5. Bypassing Normal Procedures</h3>
+          <p>
+            Requests come through unusual channels (personal WhatsApp, random email) instead of official company systems or
+            known phone numbers.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Digital Identity Capstone.</p>
+    <a href="#top" class="back-to-top">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
